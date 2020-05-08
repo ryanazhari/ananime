@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- MyStyle -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>AnAnime</title>
+  </head>
+  <body id="body">
+
+    <!-- Left -->
+    <section class="web-left">
+        <div class="row img-brand">
+            <div class="col-md-4 col-6 text-center">
+                <a href="https://www.youtube.com/channel/UCkXmLjEr95LVtGuIm3l2dPg" target="_blank">
+                    <img src="img/wpu.png" alt="WPU" class="rounded-circle">
+                </a>
+            </div>
+            <div class="col-md-4 col-6 text-center">
+                <a href="https://www.instagram.com/kunoleps" target="_blank">
+                    <img src="img/kunoleps.png" alt="WPU"   class="rounded-circle">
+                </a>
+            </div>
+        </div>
+        <div class="row gendre">
+            <div class="col-md-12">
+                <h2>Top Gendre</h2>
+            </div>
+            <div class="col-md-12 col-6">
+                <a href="#" class="btn-gendre">Action</a>
+            </div>
+            <div class="col-md-12 col-6">
+                <a href="#" class="btn-gendre">Adventure</a>
+            </div>
+            <div class="col-md-12 col-6">
+                <a href="#" class="btn-gendre">Comedy</a>
+            </div>
+            <div class="col-md-12 col-6">
+                <a href="#" class="btn-gendre">Fantasy</a>
+            </div>
+            <div class="col-md-12 col-6">
+                <a href="#" class="btn-gendre">Game</a>
+            </div>
+            <div class="col-md-12 col-6">
+                <a href="#" class="btn-gendre">Horror</a>
+            </div>
+            <div class="col-md-12 col-6">
+                <a href="#" class="btn-gendre">Romance</a>
+            </div>
+            <div class="col-md-12 col-6">
+                <a href="#" class="btn-gendre">Sports</a>
+            </div>
+            <div class="col-12">
+                <a href="#" class="btn-thx" data-toggle="modal" data-target="#exampleModal">
+                    <img src="img/arrow-right.svg" alt="btn-thx" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Middle -->
+    <section class="web-middle">
+        <h2 id="title-season" ></h2>
+        <div class="row season">
+            <a href="#" class="link-season">Summer</a>
+            <a href="#" class="link-season">Spring</a>
+            <a href="#" class="link-season">Fall</a>
+            <a href="#" class="link-season">Winter</a>
+        </div>
+
+        <div class="box-input">
+            <h2>Find Anime</h2>
+            <input type="text" placeholder="Search..." id="search-input" autocomplete="off">
+        </div>
+
+        <div class="result">
+            <p>Result of</p>
+            <h1 id="hero-title" >Loading...</h1>
+        </div>
+
+        <div class="row content" id="middle-content">
+            <div class="col-12 text-center mt-5">
+                <img src="load.gif" alt="Load">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Right -->
+    <section class="web-right">
+        <div class="box-input">
+            <h2>Find Anime</h2>
+            <input type="text" placeholder="Search..." id="search-input" autocomplete="off">
+        </div>
+
+        <div class="top-anime">
+            <h2>Top Upcoming</h2>
+            <div class="top-content" id="anime-upcoming">
+            </div>
+        </div>
+    </section>
+  
+  <!-- Modal Message -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+            <div class="row overflow">
+                <div class="col-6 text-center">
+                    <img src="img/wpu.png" alt="WPU" class="img-fluid">
+                    <p>Web Programming <br>Unpas</p>
+                    <a href="https://www.youtube.com/channel/UCkXmLjEr95LVtGuIm3l2dPg" target="_blank" class="btn-visit">Visit</a>
+                </div>
+                <div class="col-6 text-center">
+                    <img src="img/kunoleps.png" alt="Kunoleps" class="img-fluid">
+                    <p>Ryan Azhari <br>Kunoleps</p>
+                    <a href="https://www.instagram.com/kunoleps" target="_blank" class="btn-visit">Visit</a>
+                </div>
+                <div class="message">
+                    <p>
+                        Terima kasih buat kalian yang sudah berkunjung : )
+                    </p>
+                    <p>
+                        Dan tentunya untuk pak dhika semoga sehat selalu dan tetap jadi dosen online buat semua <br>wkwkwk… ; )
+                    </p>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal Detail -->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="modal-body">
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
