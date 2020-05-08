@@ -1,5 +1,27 @@
+@font-face {
+    font-family: 'gr';
+    src: url(fonts/gr.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'gm';
+    src: url(fonts/gm.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'gsm';
+    src: url(fonts/gsm.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'rr';
+    src: url(fonts/rr.ttf) format('truetype');
+}
+
+
 body {
-    background-color: #F6F1FC;
+    background-color: #F3F1FB;
+    font-family: 'gr';
 }
 
 section.web-left, 
@@ -35,10 +57,8 @@ section.web-left {
     }
 
     section.web-left .gendre h2 {
-        font-family: Gilroy;
-        font-weight: 600;
+        font-family: 'gsm';
         font-size: 18px;
-        text-align: left;
         color: #333;
         margin-top: 32px;
         margin-bottom: 12px;
@@ -48,8 +68,6 @@ section.web-left {
         display: inline-block;
         padding: 8px 24px;
         border-radius: 24px;
-        font-family: Gilroy;
-        font-weight: normal;
         font-size: 14px;
         color: #623BFF;
         border: 1px solid #623BFF;
@@ -67,8 +85,6 @@ section.web-left {
         display: inline-block;
         padding: 8px 24px;
         border-radius: 24px;
-        font-family: Gilroy;
-        font-weight: normal;
         font-size: 14px;
         background-color: #623BFF;
         color: #FAFAFA !important;
@@ -96,7 +112,7 @@ section.web-middle {
     width: 62%;
     height: 100vh;
     padding: 42px;
-    background-color: #F6F1FC;
+    background-color: #F3F1FB;
 }
 
     /* section.web-middle .content {
@@ -109,8 +125,7 @@ section.web-middle {
     } 
 
     #title-season {
-        font-family: Gilroy;
-        font-weight: bold;
+        font-family: 'gm';
         font-size: 28px;
         color: #333;
     }
@@ -118,8 +133,6 @@ section.web-middle {
     section.web-middle .link-season {
         text-decoration: none;
         margin-right: 42px;
-        font-family: Gilroy;
-        font-weight: normal;
         font-size: 16px;
         color: #999;
         transition: .2s ease-in;
@@ -144,8 +157,7 @@ section.web-middle {
 
     .link-season.link-season-active {
         color: #232323 !important;
-        font-family: Gilroy;
-        font-weight: bold;
+        font-family: 'gm';
     }
 
     .result {
@@ -154,16 +166,13 @@ section.web-middle {
     }
 
     .result p {
-        font-family: Gilroy;
-        font-weight: normal;
         font-size: 14px;
         color: #555;
         margin: 0 0 6px 0;
     }
 
     .result h1 {
-        font-family: Gilroy;
-        font-weight: 600;
+        font-family: 'gm';
         font-size: 24px;
         margin: 0;
         text-align: left;
@@ -178,8 +187,7 @@ section.web-middle {
     }
 
     .content h3 {
-        font-family: Gilroy;
-        font-weight: 600;
+        font-family: 'gm';
         font-size: 16px;
         color: #333;
         margin-top: 12px;
@@ -190,7 +198,7 @@ section.web-middle {
 section.web-right {
     width: 26%;
     height: 100vh;
-    background-color: #623BFF;
+    background-color: #7558E9;
     border-radius: 32px 0 0 32px;
     padding: 42px;
 }
@@ -207,21 +215,17 @@ section.web-right {
         border: none;
         outline: none;
         color: #555;
-        font-family: Gilroy;
-        font-weight: 600;
+        font-family: 'gm';
     }
 
     .web-right h2 {
-        font-family: 'Gilroy';
-        font-weight: bold;
+        font-family: 'gm';
         font-size: 24px;
         color: #fafafa;
         margin-bottom: 12px;
     }
 
     .box-input input::placeholder {
-        font-family: Gilroy;
-        font-weight: normal;
         font-size: 14px;
         color: #aaa;
     }
@@ -245,23 +249,18 @@ section.web-right {
     }
 
     .top-anime h3 {
-        font-family: Rubik;
-        font-weight: normal;
+        font-family: 'rr';
         font-size: 14px;
         color: #f0f0f0;
     }
 
     .top-anime .subdata p {
-        font-family: Gilroy;
-        font-weight: normal;
         font-size: 12px;
         color: #ddd;
         margin: 0;
     }
 
     .top-anime .subdata p span {
-        font-family: Gilroy;
-        font-weight: normal;
         font-size: 12px;
         color: #eee;
         margin: 0;
@@ -277,8 +276,7 @@ section.web-right {
 
     .overflow p {
         font-size: 12px;
-        font-family: 'Gilroy';
-        font-weight: bold;
+        font-family: 'gm';
         line-height: 14px;
         color: #555;
         margin-top: 6px;
@@ -291,9 +289,8 @@ section.web-right {
         text-decoration: none;
         border-radius: 20px;
         background: #fff;
-        font-family: Gilroy;
+        font-family: 'gm';
         margin-top: 12px;
-        font-weight: bold;
         font-size: 10px;
         color: #623bff;
         border: 1px solid #623bff;
@@ -310,8 +307,6 @@ section.web-right {
     }
 
     .overflow .message p {
-        font-family: Gilroy;
-        font-weight: normal;
         font-size: 16px;
         line-height: 20px;
         text-align: center;
@@ -323,8 +318,7 @@ section.web-right {
     /* Detail */
 
     h3.title-detail {
-        font-family: Gilroy;
-        font-weight: 600;
+        font-family: 'gm';
         font-size: 24px;
         margin: 0;
         text-align: left;
@@ -332,16 +326,12 @@ section.web-right {
     }
 
     .detail-anime p {
-        font-family: Gilroy;
-        font-weight: normal;
         font-size: 16px;
         color: #999;
         margin: 6px 0;
     }
 
     .detail-anime p span {
-        font-family: Gilroy;
-        font-weight: normal;
         font-size: 16px;
         color: #555;
         margin: 0;
@@ -383,8 +373,8 @@ section.web-right {
             width: 100%;
             height: 100%;
             background-color: #FAFAFA;
-            padding: 0 16px 20px 16px;
-            margin: 32px 0;
+            padding: 20px 16px;
+            margin: 0 0 32px 0;
         }
 
         section.web-left .img-brand {
@@ -412,7 +402,7 @@ section.web-right {
             width: 100%;
             height: 100%;
             padding: 0 16px;
-            background-color: #F6F1FC;
+            background-color: #F3F1FB;
             position: static;
             margin: 0;
         }
@@ -434,6 +424,10 @@ section.web-right {
         border-radius: 4px;
     }
 
+    .box-input input {
+        padding: 12px 16px;
+    }
+
     section.web-middle .box-input {
         display: block;
     }
@@ -443,8 +437,7 @@ section.web-right {
     }
 
     .box-input h2 {
-        font-family: 'Gilroy';
-        font-weight: bold;
+        font-family: 'gm';
         font-size: 20px;
         color: #333;
     }
@@ -464,7 +457,7 @@ section.web-right {
     .detail-anime .embed-responsive {
         width: 100%;
         margin: 12px auto;
-       
+    }
 
  }
     
