@@ -20,7 +20,7 @@
 
 
 body {
-    background-color: #9340FF;
+    background-color: #F9F9F9;
     font-family: 'gr';
 }
 
@@ -112,7 +112,7 @@ section.web-middle {
     width: 62%;
     height: 100vh;
     padding: 42px;
-    background-color: #F3F1FB;
+    background-color: #F9F9F9;
 }
 
     /* section.web-middle .content {
@@ -198,7 +198,7 @@ section.web-middle {
 section.web-right {
     width: 26%;
     height: 100vh;
-    background-color: #7558E9;
+    background-color: #9850F6;
     border-radius: 32px 0 0 32px;
     padding: 42px;
 }
