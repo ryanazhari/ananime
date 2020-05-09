@@ -220,6 +220,9 @@ $('#body').on('click', '#detail-anime',function() {
         if( data.episodes == null ) {
             data.episodes = 'unknow';
         }
+        if( data.score == null ) {
+            data.score = 'unknow';
+        }
         
         $('#modal-body').append(`
             <div class="row detail-anime">
