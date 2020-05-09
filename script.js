@@ -141,7 +141,7 @@ function animeUpComing() {
                         </h3>
                         <div class="row">
                             <div class="col-md-12">
-                                <p>TV <span>`+ data.episodes +` eps</span></p>
+                                <p>`+ data.type +` <span>`+ data.episodes +` eps</span></p>
                             </div>
                         </div>
                         <p>Members <span>`+ data.members +`</span></p>

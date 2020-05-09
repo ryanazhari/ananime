@@ -79,6 +79,7 @@ section.web-left {
     .btn-gendre:hover {
         background-color: #623BFF;
         color: #FAFAFA !important;
+        cursor: pointer;
     }
 
     .btn-gendre-active {
@@ -133,6 +134,7 @@ section.web-middle {
     section.web-middle .link-season {
         text-decoration: none;
         margin-right: 42px;
+        margin-top: 6px;
         font-size: 16px;
         color: #999;
         transition: .2s ease-in;
@@ -153,6 +155,7 @@ section.web-middle {
     .link-season:hover {
         color: #232323 !important;
         font-weight: 600;
+        cursor: pointer;
     }
 
     .link-season.link-season-active {
@@ -407,15 +410,27 @@ section.web-right {
             margin: 0;
         }
 
+        .content h3 {
+            height: 40px;
+        }
+
+        section.web-middle .season {
+            margin-top: 20px;
+        }
+
 
     section.web-right {
         width: 100%;
         height: 100%;
         background-color: #9850F6;
-        border-radius: 0;
+        border-radius: 32px 32px 0 0;
         padding: 0 16px 32px 16px;
         position: static;
         margin-top: 0;
+    }
+
+    .web-right h2 {
+        color: #fff;
     }
 
     .top-anime .img-top {
@@ -449,6 +464,20 @@ section.web-right {
 
     .detail-anime p {
         font-size: 16px;
+    }
+
+    .top-anime h3 {
+        font-size: 18px;
+        color: #fafafa;
+    }
+
+    .top-anime .subdata p {
+        font-size: 14px;
+        color: #f0f0f0;
+    }
+
+    .top-anime .subdata p span {
+        color: #fafafa;
     }
 
     .detail-anime p span {
