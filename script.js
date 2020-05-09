@@ -92,7 +92,7 @@ function animeUpComing() {
             $('#anime-upcoming').append(`
                 <div class="row box-content">
                     <div class="col-md-4 col-4">
-                        <div id="detail-anime" data-id="`+ data.mal_id +`" class="img-top" data-toggle="modal" data-target=".bd-example-modal-lg" class="img-poster" style="
+                        <div class="img-top cursor-right" id="detail-anime" data-id="`+ data.mal_id +`" data-toggle="modal" data-target=".bd-example-modal-lg" style="
                             background-image: url(`+ data.image_url +`);
                             background-position: center;
                             background-size: cover;
