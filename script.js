@@ -4,6 +4,10 @@ var year = d.getFullYear();
 
 $('#title-season').html('Anime Season '+ year);
 
+if ( $(window).width() >= 1024 ) {
+    $('#input-mobile').html('')
+}
+
 
 // https://api.jikan.moe/v3/genre/type/genre_id/page
 

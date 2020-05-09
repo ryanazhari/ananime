@@ -440,11 +440,7 @@ section.web-right {
         border-radius: 4px;
         cursor: pointer;
     }
-
-    .cursor-right {
-        display: none !important;
-    }
-
+    
     .box-input input {
         padding: 12px 16px;
     }
